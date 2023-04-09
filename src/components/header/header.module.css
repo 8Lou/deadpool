@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  background-color: rgb(44, 56, 88);
+  color: white;
+  height: 65px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo_header {
+  width: 38px;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 8px;
+}
+.btn_group {
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.icons {
+  color: #ece8a9;
+  position: relative;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+  font-size: 23px;
+  cursor: pointer;
+}
+.login_name {
+  position: absolute;
+  right: 2.5%;
+  cursor: default;
+}
+.header_link {
+  text-decoration: none;
+  color: inherit;
+}
+.basket_span {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.basket_span_icons {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

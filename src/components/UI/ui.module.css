@@ -1,0 +1,137 @@
+.select {
+  z-index: 10;
+  top: 1%;
+  position: absolute;
+  background-color: white;
+  width: 140px;
+  height: fit-content;
+  border-radius: 20px;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.btn {  
+  color: #f5efa0;
+  background-color: rgb(44, 56, 88);
+  border: 1px solid #f5efa0;
+  border-radius: 20px;
+  width: 140px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f5efa0;
+  color: rgb(44, 56, 88);
+  transition: ease-in 0.1s;
+}
+.inp_wrapper {
+  position: relative;
+}
+.inp {
+  color: #f1e752;
+  background-color: rgb(44, 56, 88);
+  border: 1px solid #f5efa0;
+  border-radius: 20px;
+  height: 35px;
+  padding-left: 15px;
+  width: 100%;
+}
+.icon_close {
+  color: #f5efa0;
+  opacity: 0.8;
+  position: absolute;
+  right: 5.5%;
+  top: 31%;
+  cursor: pointer;
+}
+.icon_close:hover {
+  opacity: 1;
+}
+.absolute {
+  position: absolute;
+  bottom: 10px;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.skeleton {
+  margin: 10px;
+  width: 390px;
+  height: 450px;
+  background: linear-gradient(-90deg, #f2f2f2 0%, #dddddd 50%, #f2f2f2 100%);
+  background-size: 400% 400%;
+  animation: gradient 1.5s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.cart_btn {
+  display: flex;
+  align-items: center;
+}
+.button {
+  display: inline-block;
+  font-size: 24px;
+  color: #f5efa0;
+  background-color: rgb(44, 56, 88);
+  border: 1px solid #f5efa0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f5efa0;
+  color: rgb(44, 56, 88);
+}
+.plus {
+  position: relative;
+  top: -3px;
+}
+.minus {
+  position: relative;
+  top: -3px;
+}
+.card_quantity {
+  margin: 0 5px;
+}
+.submit_button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #2b2d42;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+.submit_button:hover {
+  background-color: #1d1f2f;
+}
+.submit_button:active {
+  background-color: #0d0f1f;
+}
+.submit_button:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #2b2d42;
+}
