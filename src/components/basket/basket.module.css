@@ -31,7 +31,7 @@
 
 .basket_content {
   height: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -48,10 +48,9 @@
 }
 
 .btn_close {
-  margin: 120px;
   position: absolute;
-  right: 10px;
-  bottom: 5px;
+  right: 209px;
+  bottom: 45px;
 }
 
 .empty_cart {
@@ -62,8 +61,12 @@
 }
 
 .empty_cart_text {
+  margin: 10px;
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 60px;
 }
 
 .orders {
