@@ -16,7 +16,7 @@
 .card:hover {
   /* transform: scale(1.05); */
   transition: 0.1s ease-in-out;
-  box-shadow: 0px 0px 25px 25px rgba(4, 113, 255, 0.4);
+  box-shadow: 0px 0px 25px 20px rgba(96, 154, 230, 0.6);
 }
 
 .card_total_price {
@@ -46,10 +46,17 @@
 
 .card_second_field {
   color: rgb(67, 138, 231);
+  padding: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* color: rgb(67, 138, 231);
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: center; */
 }
 
 .card_favorite {
@@ -79,9 +86,11 @@
 }
 
 .modal {
+  color: rgb(67, 138, 231);
+  font-weight: bolder;
   background-color: black;
   border-radius: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 25px 15px rgba(96, 154, 230, 0.6);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -112,8 +121,7 @@
 }
 
 .wrapper_for_items {
-  padding: 30px;
-  margin: 0;
+  padding: 30px;  
   background-color: black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

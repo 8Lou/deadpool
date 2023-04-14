@@ -9,11 +9,13 @@
 }
 
 .logo_header {
-  width: 38px;
+  width: 36px;
   height: auto;
   margin-left: 150px;
   margin-top: 8px;
-  box-shadow: 0px 0px 25px 15px rgba(4, 113, 255, 0.2);
+  background-image: linear-gradient(#ece8a9, #92d8ee);
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 30px rgba(96, 154, 230, 0.2);
 }
 
 .btn_group {

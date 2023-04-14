@@ -2,7 +2,7 @@
   z-index: 10;
   top: 1%;
   position: absolute;
-  background-color: white;
+  background-color: rgba(44, 56, 88, 0.5);
   width: 140px;
   height: fit-content;
   border-radius: 20px;
@@ -38,8 +38,8 @@
 }
 
 .inp {
-  color: #f1e752;
-  background-color: rgb(44, 56, 88);
+  color: #f5efa0;
+  background-color: rgba(44, 56, 88, 0.5);
   border: 1px solid #f5efa0;
   border-radius: 20px;
   height: 35px;
