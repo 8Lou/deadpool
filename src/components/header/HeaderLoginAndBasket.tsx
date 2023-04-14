@@ -41,7 +41,7 @@ const HeaderLoginAndBasket: FC<HeaderIconsPropsType> = ({ setBasketIsHidden }) =
             <>
               <FiSettings
                 onClick={() =>
-                  login === 'ddd@ddd.ru' ? navigate('/admin') : navigate('/no-rights')
+                  login === 'lou8@mail.ru' ? navigate('/admin') : navigate('/no-rights')
                 }
               />
               <AiOutlineLogin onClick={handleLogoutClick} />

@@ -16,7 +16,7 @@ const AdminSettings: FC<AdminSettingsProps> = ({
   setFormValue,
 }) => {
   return (
-    <div className={styles.add_btn_wrapper}>
+    <div className={styles.header_btn_group__xBdMh/* add_btn_wrapper */}>
       <Button
         buttonHandler={() => {
           setIsHiddenForm(false);

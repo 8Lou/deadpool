@@ -13,6 +13,7 @@
 }
 
 .form {
+  color: rgb(67, 138, 231);
   justify-content: center;
   position: fixed;
   padding: 5px;
@@ -42,13 +43,14 @@ input[type='checkbox'] {
 }
 
 .submit_btn {
+  margin: 0 10px 0 0;
   font-size: inherit;
-  color: black;
+  color: #f5efa0;
   background-color: rgb(44, 56, 88);
-  border: none;
-  border-radius: 15px;
+  border: 1px solid #f5efa0;
+  border-radius: 20px;
   width: 140px;
-  height: 30px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,18 +59,17 @@ input[type='checkbox'] {
 }
 
 .submit_btn:hover {
-  background-color: rgb(44, 56, 88);
-  color: white;
-  border: 2px solid white;
-  transition: ease-in 0.2s;
+  background-color: #f5efa0;
+  color: rgb(44, 56, 88);
+  transition: ease-in 0.1s;
 }
 
-.add_btn_wrapper {
+/* .add_btn_wrapper {
   margin: 10px;
   border: 1px solid #000000;
   width: fit-content;
   border-radius: 15px;
-}
+} */
 
 .stop_image_content {
   height: 100%;

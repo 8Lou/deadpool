@@ -29,15 +29,16 @@
 .icons {
   color: #ece8a9;
   position: relative;
+  margin: 50px 80px 50px 0;
   width: 100px;
   display: flex;
   justify-content: space-around;
-  margin: 70px;
   font-size: 23px;
   cursor: pointer;
 }
 
 .login_name {
+  color: #f5efa0;
   position: absolute;
   right: 2.5%;
   cursor: default;

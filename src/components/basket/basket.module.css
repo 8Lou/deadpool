@@ -49,8 +49,8 @@
 
 .btn_close {
   position: absolute;
-  right: 209px;
-  bottom: 45px;
+  right: 215px;
+  bottom: 52px;
 }
 
 .empty_cart {
@@ -65,7 +65,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 35px;
+  bottom: 42px;
   left: 60px;
 }
 
@@ -107,9 +107,9 @@
 }
 
 .confirm_order {
-  margin: 120px;
-  right: 200px;
-  bottom: 5px;
+  margin: 10px;
+  left: 78px;
+  bottom: 42px;
   position: absolute;
   display: flex;
   align-items: center;
@@ -117,15 +117,19 @@
 }
 
 .successful_order {
-  margin-top: 50px;
+  margin-top: 20px;
   background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Deadpool-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5');
   background-repeat: no-repeat;
   background-size: contain;
   width: 400px;
   height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 20px rgb(96 154 230 / 60%);
 }
 
 .successful_order_wrapper {
+  color: rgb(67, 138, 231);
+  background-color: black;
   width: 100%;
   height: 100%;
   display: flex;
