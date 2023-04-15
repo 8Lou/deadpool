@@ -6,7 +6,7 @@
   text-align: center;
   margin: 18px;
   width: 350px;
-  height: 400px;
+  height: 420px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
@@ -35,8 +35,8 @@
   color: rgb(67, 138, 231);
   font-size: 20px;
   font-weight: bold;
-  opacity: 0.8;
-  margin: 15px;
+  /* opacity: 0.8; */
+  margin: 10px 31px;
 }
 
 .card_price {
@@ -52,12 +52,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* color: rgb(67, 138, 231);
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; */
+  /* 
+  justify-content: space-evenly;*/
 }
 
 .card_favorite {
@@ -67,9 +63,13 @@
 
 .card_first_field {
   color: rgb(67, 138, 231);
-  display: flex;
-  justify-content: space-evenly;
+  /*   display: flex;
+  justify-content: space-between; */
   align-items: center;
+
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 140px;
 }
 
 .modal_overlay {
@@ -127,4 +127,5 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin-top: 40px;
 }
