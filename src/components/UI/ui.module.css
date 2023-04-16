@@ -13,7 +13,7 @@
   justify-content: space-evenly;
 }
 
-.ui_btn__WsCWa,
+/* .ui_btn__WsCWa, */
 .btn {
   color: #f5efa0;
   background-color: rgb(44, 56, 88);
@@ -34,11 +34,11 @@
   transition: ease-in 0.1s;
 }
 
-/* .ui_btn__WsCWa {
-  position: absolute;
-  top: 0;
+.ui_btn__WsCWa {
+  /* position: absolute; */
+  margin: 20px;
 }
- */
+
 .inp_wrapper {
   position: relative;
 }
@@ -69,7 +69,7 @@
 .absolute {
   position: absolute;
   bottom: 20px;
-  left: 114px;
+  right: 103px;
 }
 
 .disabled {

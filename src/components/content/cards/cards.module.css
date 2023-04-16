@@ -9,7 +9,7 @@
   height: 420px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   cursor: default;
 }
 
@@ -36,7 +36,6 @@
   font-size: 20px;
   font-weight: bold;
   /* opacity: 0.8; */
-  margin: 10px 31px;
 }
 
 .card_price {
@@ -63,13 +62,10 @@
 
 .card_first_field {
   color: rgb(67, 138, 231);
-  /*   display: flex;
-  justify-content: space-between; */
-  align-items: center;
-
-  display: grid;
+  display: flex;
   justify-content: space-between;
-  grid-template-columns: 140px;
+  align-items: center;
+  margin-bottom: 35px;
 }
 
 .modal_overlay {
