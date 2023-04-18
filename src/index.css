@@ -13,9 +13,3 @@
   grid-column-gap: 0px;
   /*  grid-row-gap: 40px; */
 }
-
-@media screen and (max-width: 768px) {
-  .header_header__IXLEp {
-    width: 30%;
-  }
-}

@@ -64,12 +64,12 @@ input[type='checkbox'] {
   transition: ease-in 0.1s;
 }
 
-/* .add_btn_wrapper {
+.add_btn_wrapper {
   margin: 10px;
   border: 1px solid #000000;
   width: fit-content;
   border-radius: 15px;
-} */
+}
 
 .stop_image_content {
   height: 100%;

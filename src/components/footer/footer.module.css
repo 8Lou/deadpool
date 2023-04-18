@@ -22,7 +22,7 @@
 
 .footer_icon {
   color: crimson;
-  font-size: 25px;
+  font-size: 24px;
   margin-left: 5px;
   animation-name: pulse;
   animation-duration: 1s;
@@ -41,4 +41,14 @@
   100% {
     transform: scale(1);
   }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 870px;
+    height: 75px;
+    font-size: 1.3rem;
+  }
+
+
 }

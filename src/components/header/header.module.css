@@ -1,8 +1,8 @@
 .header {
   display: flex;
   background-color: rgb(44, 56, 88);
-  /* color: white; */
   height: 75px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -29,7 +29,7 @@
 .icons {
   color: #ece8a9;
   position: relative;
-  margin: 50px 80px 50px 0;
+  margin: 50px 100px 50px 0;
   width: 100px;
   display: flex;
   justify-content: space-around;
@@ -61,4 +61,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 870px;
+    height: 75px;
+    font-size: 1.3rem;
+  }
+
+  .logo_header {
+    margin-left: 45px;
+  }
 }

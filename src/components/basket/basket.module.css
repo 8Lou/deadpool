@@ -23,7 +23,7 @@
   flex-direction: column;
   left: 0;
   top: 0;
-  width: 60%;
+  width: 85%;
   height: 100%;
   position: absolute;
   z-index: 300;
@@ -49,7 +49,7 @@
 
 .btn_close {
   position: absolute;
-  right: 215px;
+  right: 270px;
   bottom: 52px;
 }
 
@@ -108,7 +108,7 @@
 
 .confirm_order {
   margin: 10px;
-  left: 78px;
+  left: 45px;
   bottom: 42px;
   position: absolute;
   display: flex;
