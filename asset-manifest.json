@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.411ba8c7.css",
+    "main.js": "/static/js/main.c0217e39.js",
+    "static/media/logo_deadpool.png": "/static/media/logo_deadpool.f50011578e2fd35330e6.png",
+    "index.html": "/index.html",
+    "main.411ba8c7.css.map": "/static/css/main.411ba8c7.css.map",
+    "main.c0217e39.js.map": "/static/js/main.c0217e39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.411ba8c7.css",
+    "static/js/main.c0217e39.js"
+  ]
+}
