@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ce49351.css",
-    "main.js": "/static/js/main.6b7c66cf.js",
-    "static/media/logo_deadpool.png": "/static/media/logo_deadpool.f50011578e2fd35330e6.png",
-    "index.html": "/index.html",
-    "main.7ce49351.css.map": "/static/css/main.7ce49351.css.map",
-    "main.6b7c66cf.js.map": "/static/js/main.6b7c66cf.js.map"
+    "main.css": "/deadpool/static/css/main.7ce49351.css",
+    "main.js": "/deadpool/static/js/main.3e3f39b2.js",
+    "static/media/logo_deadpool.png": "/deadpool/static/media/logo_deadpool.f50011578e2fd35330e6.png",
+    "index.html": "/deadpool/index.html",
+    "main.7ce49351.css.map": "/deadpool/static/css/main.7ce49351.css.map",
+    "main.3e3f39b2.js.map": "/deadpool/static/js/main.3e3f39b2.js.map"
   },
   "entrypoints": [
     "static/css/main.7ce49351.css",
-    "static/js/main.6b7c66cf.js"
+    "static/js/main.3e3f39b2.js"
   ]
 }
